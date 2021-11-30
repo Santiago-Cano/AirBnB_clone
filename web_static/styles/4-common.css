@@ -1,22 +1,11 @@
-html {
-  position: relative;
-  height: 100%;
-}
 body {
-    display: grid;
-    height: 100%;
-    position: relative;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: "header" "main" "footer";
-    margin: 0;
-    padding: 0;
-    font-color: #484848;
+    color: #484848;
     font-size: 14px;
-    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .container {
-    position: relative;
-    margin: 30px auto;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     max-width: 1000px;
 }
